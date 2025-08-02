@@ -68,13 +68,11 @@ A full-stack, scalable e-commerce web application built using the **MERN** stack
 ## 🔐 .env Configuration (Backend)
 Create a `.env` file in `/server`:
 
+```env
 PORT=4000
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/dbname
+MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/your-db
 JWT_SECRET=your_jwt_secret
-
-#Optional (for Razorpay / Stripe integration)
-RAZORPAY_KEY=your_key
-RAZORPAY_SECRET=your_secret
+NODE_ENV=development
 
 ## 🚀 Getting Started Locally
 
