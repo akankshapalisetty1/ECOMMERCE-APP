@@ -67,16 +67,16 @@ A full-stack, scalable e-commerce web application built using the **MERN** stack
 
 ## 🔐 .env Configuration (Backend)
 Create a `.env` file in `/server`:
+
 PORT=4000
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/dbname
 JWT_SECRET=your_jwt_secret
 
-# Optional (for Razorpay / Stripe integration)
+#Optional (for Razorpay / Stripe integration)
 RAZORPAY_KEY=your_key
 RAZORPAY_SECRET=your_secret
 
-
-🚀 Getting Started Locally
+## 🚀 Getting Started Locally
 
 # Clone the repo
 git clone https://github.com/akankshapalisetty1/mern-ecommerce.git
