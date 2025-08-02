@@ -53,7 +53,6 @@ A full-stack, scalable e-commerce web application built using the **MERN** stack
 │ ├── context/ or redux/ # State management
 
 │ └── utils/ # Helper functions
-│
 
 ├── server/ # Express Backend
 
