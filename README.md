@@ -54,6 +54,7 @@ A full-stack, scalable e-commerce web application built using the **MERN** stack
 
 │ └── utils/ # Helper functions
 │
+
 ├── server/ # Express Backend
 
 │ ├── config/ # DB and external services config
@@ -78,26 +79,26 @@ A full-stack, scalable e-commerce web application built using the **MERN** stack
 ## 🔐 .env Configuration (Backend)
 Create a `.env` file in `/server`:
 
-PORT=4000
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/your-db
-JWT_SECRET=your_jwt_secret
-NODE_ENV=development
+- PORT=4000
+- MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/your-db
+- JWT_SECRET=your_jwt_secret
+- NODE_ENV=development
 
 ## 🚀 Getting Started Locally
 
 #Clone the repo
-git clone https://github.com/akankshapalisetty1/mern-ecommerce.git
-cd mern-ecommerce
+- git clone https://github.com/akankshapalisetty1/mern-ecommerce.git
+- cd mern-ecommerce
 
 #Setup Backend
-npm install
-cd backend
-npm run server
+- npm install
+- cd backend
+- npm run server
 
 #Setup Frontend
-npm install
-cd frontend
-npm start
+- npm install
+- cd frontend
+- npm start
 
 ## 🧠 Concepts Covered
 
